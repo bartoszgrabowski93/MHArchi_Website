@@ -4,3 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
+
+.container {
+  display: flex;
+}
+
+.footer {
+  background-color: black;
+}

@@ -1,12 +1,16 @@
 import React from "react";
-import logo from "../Images/Head/pexels-dom-j-7304-310479.jpg";
-import "../Styles/Style.css";
+import "../styles/style.css";
 
 function Offer() {
   return (
     <React.Fragment>
       <div className="container">
-        <img src={logo} alt="BannerGlowny.jpg" className="logo" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+          doloribus eius non ipsum reiciendis voluptate, repellendus
+          perspiciatis odio natus reprehenderit! Alias minima illo labore
+          corporis, odit vitae porro nulla maiores?
+        </p>
       </div>
     </React.Fragment>
   );

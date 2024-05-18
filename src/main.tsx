@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import App from "./components/App.tsx";
 import Offer from "./components/Offer.tsx";
 import Portfolio from "./components/Portfolio.tsx";
-import Head from "./components/Head.tsx";
 import Contact from "./components/Contact.tsx";
 import Footer from "./components/Footer.tsx";
 import "./styles/style.css";
@@ -13,9 +12,6 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter>
       <div>
-        <header>
-          <Head />
-        </header>
         <body>
           <div className="container">
             <Routes>
